@@ -1,3 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS colegio_db;
+
 -- Esquema para las aulas
 CREATE TABLE aulas (
                        id_aula SERIAL PRIMARY KEY,
